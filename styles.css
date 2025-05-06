@@ -54,8 +54,20 @@ body {
 }
 
 .learn-more-btn {
-    margin-top: 30px;
-    padding: 10px 15px;
+    margin-top: 40px;
+    padding: 12px 30px;
     border: none;
     border-radius: 15px;
+}
+
+.sedan {
+    color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    color: hsl(179, 100%, 13%);
 }
