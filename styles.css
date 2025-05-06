@@ -9,10 +9,13 @@
 .main-card {
   display: flex;
   flex-direction: row;
-  width: 700px;
+  width: 800px;
   height: 400px;
   margin: 100px auto;
   background-color: brown;
+  color: white;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
 .icons {
@@ -22,15 +25,19 @@
 
 .sedan-card {
     background-color: hsl(31, 77%, 52%);
-    padding: 20px;
+    padding: 40px;
 }
 
 .suv-card {
     background-color: hsl(184, 100%, 22%);
-    padding: 20px;
+    padding: 40px;
 }
 
 .luxury-card {
     background-color: hsl(179, 100%, 13%);
-    padding: 20px;
+    padding: 40px;
+}
+
+.main-card p {
+    color: hsla(0, 0%, 100%, 0.75);
 }
