@@ -5,3 +5,11 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.main-card {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: auto;
+    margin: 80px auto;
+}
