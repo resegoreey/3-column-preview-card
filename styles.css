@@ -6,6 +6,10 @@
   color: hsl(228, 45%, 44%);
 }
 
+body {
+  font-size: 15px;
+}
+
 .main-card {
   display: flex;
   flex-direction: row;
@@ -24,20 +28,25 @@
 }
 
 .sedan-card {
-    background-color: hsl(31, 77%, 52%);
-    padding: 40px;
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
 }
 
 .suv-card {
-    background-color: hsl(184, 100%, 22%);
-    padding: 40px;
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
 }
 
 .luxury-card {
-    background-color: hsl(179, 100%, 13%);
-    padding: 40px;
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
 }
 
 .main-card p {
-    color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.main-card h1 {
+    font-family: "Big Shoulders", sans-serif;
 }
