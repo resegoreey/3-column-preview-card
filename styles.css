@@ -7,13 +7,19 @@
 }
 
 .main-card {
-    display: flex;
-    flex-direction: row;
-    width: 50%;
-    height: auto;
-    margin: 80px auto;
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 400px;
+  margin: 100px auto;
+  background-color: brown;
 }
 
 .icons {
-    height: 40px;
+  height: 40px;
+}
+
+.sedan-card {
+  display: flex;
+  flex-direction: row;
 }
