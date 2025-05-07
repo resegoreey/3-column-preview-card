@@ -16,7 +16,6 @@ body {
   width: 800px;
   height: 400px;
   margin: 100px auto;
-  background-color: brown;
   color: white;
   overflow: hidden;
   border-radius: 10px;
@@ -54,20 +53,52 @@ body {
 }
 
 .learn-more-btn {
-    margin-top: 40px;
-    padding: 12px 30px;
-    border: none;
-    border-radius: 15px;
+  margin-top: 40px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 15px;
 }
 
 .sedan {
-    color: hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
 }
 
 .suv {
-    color: hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
 }
 
 .luxury {
-    color: hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 768px) {
+  .main-card {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 40px auto;
+  }
+
+  .sedan-card,
+  .suv-card,
+  .luxury-card {
+    flex: 1;
+    padding: 60px 40px;
+    min-height: 80vh;
+    box-sizing: border-box;
+  }
+  .main-card h1 {
+    font-size: 2.2rem;
+  }
+
+  .main-card p {
+    font-size: 1rem;
+  }
+
+
+  .learn-more-btn {
+    margin-top: 30px;
+    font-size: 1rem;
+  }
 }
